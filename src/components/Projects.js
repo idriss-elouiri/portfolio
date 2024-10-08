@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/projectImg2.png";
 import projImg3 from "../assets/img/projectImg3.png";
 import projImg4 from "../assets/img/projectImg4.png";
 import projImg5 from "../assets/img/projectImg5.png";
+import projImg6 from "../assets/img/projectImg6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -55,7 +56,7 @@ export const Projects = () => {
       alt: "image",
       link: "https://luxe-car.vercel.app/",
       description: "Design & Development",
-      imgUrl: projImg5,
+      imgUrl: projImg6,
     },
   ];
 
