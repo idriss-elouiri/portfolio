@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Mern Stack Web Developer"];
+  const toRotate = ["Full Stack Web Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -69,14 +69,20 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate="Mern Stack Web Developer"
+                      data-rotate="Full Stack Web Developer"
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-             
-As a skilled MERN Stack developer with 3 years of experience, I specialize in building dynamic and responsive web applications. My expertise includes developing robust backend systems with Node.js and Express, creating interactive UIs with React, and managing data efficiently using MongoDB. I'm passionate about delivering high-quality solutions that meet client needs and ensure optimal performance across all platforms.
+                    As a skilled Full Stack developer with 3 years of
+                    experience, I specialize in building dynamic and responsive
+                    web applications. My expertise includes developing robust
+                    backend systems with Node.js and Express, creating
+                    interactive UIs with Next.js, and managing data efficiently
+                    using MongoDB. I'm passionate about delivering high-quality
+                    solutions that meet client needs and ensure optimal
+                    performance across all platforms.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

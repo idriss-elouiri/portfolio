@@ -3,8 +3,6 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -34,9 +32,9 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>As a skilled MERN stack developer </h2>
+              <h2>As a skilled Full stack developer </h2>
               <p>
-              Skilled MERN developer with expertise in MongoDB, Express, React, and Node.js. <br></br> Builds robust web applications efficiently.
+              Skilled Full developer with expertise in MongoDB, Express, Next.js, and Node.js. <br></br> Builds robust web applications efficiently.
               </p>
               <Carousel
                 responsive={responsive}
@@ -60,7 +58,11 @@ export const Skills = () => {
                   <h5>REACT</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
+                  <img src={meter2} alt="Image" />
+                  <h5>Next.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="Image" />
                   <h5>TailwindCSS</h5>
                 </div>
                 <div className="item">
