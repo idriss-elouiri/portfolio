@@ -65,7 +65,7 @@ export const Projects = () => {
       titleVistitWeb: "Visit website",
       titleVistitCode: "Visit code",
       alt: "image",
-      linkWeb: "https://mern-ecommerceweb.onrender.com",
+      linkWeb: "https://omar-electronic.onrender.com/",
       linkCode: "https://github.com/idriss-elouiri/mern-ecommerceWeb",
       description: "Design & Development",
       imgUrl: projImg6,
@@ -83,14 +83,16 @@ export const Projects = () => {
   const projects4 = [
     {
       titleVistitCode: "Visit code",
+      titleVistitWeb: "Visit website",
       alt: "image",
-      linkWeb: "https://mern-ecommerceweb.onrender.com",
+      linkWeb: "https://omar-electronic.onrender.com",
       linkCode: "https://github.com/idriss-elouiri/mern-ecommerceWeb",
       description: "Design & Development",
       imgUrl: projImg8,
     },
     {
       titleVistitCode: "Visit code",
+      titleVistitWeb: "Visit website",
       alt: "image",
       linkWeb: "https://pos-system-restaurent.vercel.app",
       linkCode: "https://github.com/idriss-elouiri/pos-system-restaurent",
@@ -99,8 +101,9 @@ export const Projects = () => {
     },
     {
       titleVistitCode: "Visit code",
+      titleVistitWeb: "Visit website",
       alt: "image",
-      linkWeb: "https://car-rental-system-8lek.vercel.app",
+      linkWeb: "https://car-rental-system-jet.vercel.app",
       linkCode: "https://github.com/idriss-elouiri/Car-Rental-System-",
       description: "Design & Development",
       imgUrl: projImg10,
