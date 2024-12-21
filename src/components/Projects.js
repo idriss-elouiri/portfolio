@@ -5,12 +5,12 @@ import projImg2 from "../assets/img/roof-des.png";
 import projImg3 from "../assets/img/car-web.png";
 import projImg4 from "../assets/img/real-web.png";
 import projImg5 from "../assets/img/ecom-web.png";
-import projImg6 from "../assets/img/ecom-code.png";
-import projImg7 from "../assets/img/real-code.png";
-import projImg8 from "../assets/img/dashboard-ecom.png";
-import projImg9 from "../assets/img/pos-system-restaurent.png";
-import projImg10 from "../assets/img/car-rental-system.png";
-
+import projImg6 from "../assets/img/store-clothes.png";
+import projImg7 from "../assets/img/electronic-ecomm.png";
+import projImg8 from "../assets/img/real-code.png";
+import projImg9 from "../assets/img/dashboard-ecom.png";
+import projImg10 from "../assets/img/pos-system-restaurent.png";
+import projImg11 from "../assets/img/car-rental-system.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -65,10 +65,19 @@ export const Projects = () => {
       titleVistitWeb: "Visit website",
       titleVistitCode: "Visit code",
       alt: "image",
-      linkWeb: "https://omar-electronic.onrender.com/",
-      linkCode: "https://github.com/idriss-elouiri/mern-ecommerceWeb",
+      linkWeb: "https://store-clothes-roan.vercel.app/",
+      linkCode: "https://github.com/idriss-elouiri/store_clothes",
       description: "Design & Development",
       imgUrl: projImg6,
+    },
+    {
+      titleVistitWeb: "Visit website",
+      titleVistitCode: "Visit code",
+      alt: "image",
+      linkWeb: "https://ecommerce-store-taupe-five.vercel.app/",
+      linkCode: "https://github.com/idriss-elouiri/ecommerce_store",
+      description: "Design & Development",
+      imgUrl: projImg7,
     },
     {
       titleVistitWeb: "Visit website",
@@ -77,7 +86,7 @@ export const Projects = () => {
       linkWeb: "https://realestate-n2sb.onrender.com",
       linkCode: "https://github.com/idriss-elouiri/mern-realEstate",
       description: "Design & Development",
-      imgUrl: projImg7,
+      imgUrl: projImg8,
     },
   ];
   const projects4 = [
@@ -88,7 +97,7 @@ export const Projects = () => {
       linkWeb: "https://omar-electronic.onrender.com",
       linkCode: "https://github.com/idriss-elouiri/mern-ecommerceWeb",
       description: "Design & Development",
-      imgUrl: projImg8,
+      imgUrl: projImg9,
     },
     {
       titleVistitCode: "Visit code",
@@ -97,7 +106,7 @@ export const Projects = () => {
       linkWeb: "https://pos-system-restaurent.vercel.app",
       linkCode: "https://github.com/idriss-elouiri/pos-system-restaurent",
       description: "Design & Development",
-      imgUrl: projImg9,
+      imgUrl: projImg10,
     },
     {
       titleVistitCode: "Visit code",
@@ -106,7 +115,7 @@ export const Projects = () => {
       linkWeb: "https://car-rental-system-jet.vercel.app",
       linkCode: "https://github.com/idriss-elouiri/Car-Rental-System-",
       description: "Design & Development",
-      imgUrl: projImg10,
+      imgUrl: projImg11,
     },
   ];
 
