@@ -1,16 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/car-des.png";
-import projImg2 from "../assets/img/roof-des.png";
-import projImg3 from "../assets/img/car-web.png";
-import projImg4 from "../assets/img/real-web.png";
-import projImg5 from "../assets/img/ecom-web.png";
-import projImg6 from "../assets/img/store-clothes.png";
-import projImg7 from "../assets/img/electronic-ecomm.png";
-import projImg8 from "../assets/img/real-code.png";
-import projImg9 from "../assets/img/dashboard-ecom.png";
-import projImg10 from "../assets/img/pos-system-restaurent.png";
-import projImg11 from "../assets/img/car-rental-system.png";
+import projImg1 from "../assets/img/Luxe Car.png";
+import projImg2 from "../assets/img/roofy.png";
+import projImg3 from "../assets/img/Homeifye _ Webflow HTML website template.png";
+import projImg4 from "../assets/img/Homeifye _ Webflow HTML website template (1).png";
+import projImg6 from "../assets/img/Create Next App (2).png";
+import projImg7 from "../assets/img/Create Next App (3).png";
+import projImg8 from "../assets/img/Idriss Estate.png";
+import projImg10 from "../assets/img/Pos System Restaurent.png";
+import projImg11 from "../assets/img/Create Next App (4).png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -52,13 +50,6 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg4,
     },
-    {
-      titleVistitWeb: "Visit website",
-      alt: "image",
-      linkWeb: "https://idrisss-car-site-87a306.webflow.io/",
-      description: "Design & Development",
-      imgUrl: projImg5,
-    },
   ];
   const projects3 = [
     {
@@ -90,15 +81,6 @@ export const Projects = () => {
     },
   ];
   const projects4 = [
-    {
-      titleVistitCode: "Visit code",
-      titleVistitWeb: "Visit website",
-      alt: "image",
-      linkWeb: "https://omar-electronic.onrender.com",
-      linkCode: "https://github.com/idriss-elouiri/mern-ecommerceWeb",
-      description: "Design & Development",
-      imgUrl: projImg9,
-    },
     {
       titleVistitCode: "Visit code",
       titleVistitWeb: "Visit website",

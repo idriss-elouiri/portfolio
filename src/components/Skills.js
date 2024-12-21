@@ -1,6 +1,5 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -8,13 +7,12 @@ import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -26,63 +24,48 @@ export const Skills = () => {
     },
   };
 
+  const skills = [
+    { icon: <FaHtml5 className="icon orange" />, name: "HTML" },
+    { icon: <FaCss3Alt className="icon blue" />, name: "CSS" },
+    { icon: <FaJs className="icon yellow" />, name: "JavaScript" },
+    { icon: <FaReact className="icon lightblue" />, name: "React" },
+    { icon: <SiNextdotjs className="icon black" />, name: "Next.js" },
+    { icon: <SiTailwindcss className="icon teal" />, name: "TailwindCSS" },
+    { icon: <FaNodeJs className="icon green" />, name: "Node.js" },
+    { icon: <SiExpress className="icon gray" />, name: "Express.js" },
+    { icon: <SiMongodb className="icon darkgreen" />, name: "MongoDB" },
+  ];
+
   return (
-    <section className="skill" id="skills">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="skill-bx wow zoomIn">
-              <h2>As a skilled Full stack developer </h2>
-              <p>
-              Skilled Full developer with expertise in MongoDB, Express, Next.js, and Node.js. <br></br> Builds robust web applications efficiently.
-              </p>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                className="owl-carousel owl-theme skill-slider"
-              >
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>HTML</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>CSS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>JS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>REACT</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Next.js</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>TailwindCSS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Node.js</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Express.js</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>MongoDB</h5>
-                </div>
-              </Carousel>
-            </div>
-          </div>
+    <section className="skills-section" id="skills">
+      <div className="skills-container">
+        <div className="skills-header">
+          <h2>My Professional Skills</h2>
+          <p>
+            A skilled full-stack developer with expertise in building robust web
+            applications using the MERN stack.
+          </p>
+        </div>
+        <div className="skills-slider">
+          <Carousel
+            responsive={responsive}
+            infinite={true}
+            className="carousel"
+          >
+            {skills.map((skill, index) => (
+              <div key={index} className="skill-card">
+                <div className="icon-container">{skill.icon}</div>
+                <h5>{skill.name}</h5>
+              </div>
+            ))}
+          </Carousel>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img
+        className="background-image"
+        src={colorSharp}
+        alt="Background"
+      />
     </section>
   );
 };
