@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import profileImg from "../assets/img/profile-photo.webp";
+import profileImg from "../assets/img/image profile 1.png";
 
 export const AboutMe = () => {
   return (
