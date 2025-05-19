@@ -13,7 +13,7 @@ const GigsSection = () => {
       title: "Design and develop innovative and fast Webflow websites",
       link: "https://mostaql.com/portfolio/2606692",
       image: gigImg1,
-      price: 10,
+      price: 100,
       seller: {
         name: "DesignCraft",
         avatar: "/api/placeholder/100/100",
@@ -25,7 +25,7 @@ const GigsSection = () => {
         "Developing user interfaces using HTML, CSS, JavaScript, and React",
       link: "https://mostaql.com/portfolio/2530197",
       image: gigImg4,
-      price: 10,
+      price: 100,
       seller: {
         name: "ReactPro",
         avatar: "/api/placeholder/100/100",
@@ -37,7 +37,7 @@ const GigsSection = () => {
         "You will get a responsive HTML website PSD/Figma/XD to HTML and CSS",
       link: "https://mostaql.com/portfolio/2606722",
       image: gigImg3,
-      price: 10,
+      price: 100,
       seller: {
         name: "DevMaster",
         avatar: "/api/placeholder/100/100",
@@ -48,7 +48,7 @@ const GigsSection = () => {
       title: "I will convert your designs into full websites, Figma to HTML",
       link: "https://mostaql.com/portfolio/2606713",
       image: gigImg2,
-      price: 5,
+      price: 100,
       seller: {
         name: "DevMaster",
         avatar: "/api/placeholder/100/100",
@@ -59,7 +59,7 @@ const GigsSection = () => {
       title: "Full Stack Web Developer | Next.js, React.js, Tailwind CSS",
       link: "https://mostaql.com/portfolio/2606713",
       image: gigImg5,
-      price: 25,
+      price: 250,
       seller: {
         name: "Full Stack Dev",
         avatar: "/api/placeholder/100/100",
