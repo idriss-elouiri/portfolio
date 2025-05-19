@@ -71,7 +71,7 @@ const GigsSection = () => {
         "Professional developer of responsive and attractive websites for the client using HTML CSS",
       link: "https://mostaql.com/portfolio/2530232",
       image: gigImg6,
-      price: 10,
+      price: 100,
       seller: {
         name: "DevMaster",
       },
